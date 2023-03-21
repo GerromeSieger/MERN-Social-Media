@@ -27,7 +27,7 @@ jobs:
         with:
           context: ./server
           push: true
-          tags: gerrome/MERN-Social-Media_server:1
+          tags: gerrome/mern-social-media_server:1
        
 
       - name: Build and push the frontend
@@ -35,4 +35,4 @@ jobs:
         with:
           context: ./client
           push: true
-          tags: gerrome/MERN-Social-Media_client:1
+          tags: gerrome/mern-social-media_client:1
