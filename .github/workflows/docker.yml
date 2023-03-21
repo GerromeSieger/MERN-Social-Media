@@ -30,7 +30,7 @@ jobs:
           tags: gerrome/MERN-Social-Media_server:1
        
 
-      - name: Build and push to frontend
+      - name: Build and push the frontend
         uses: docker/build-push-action@v3
         with:
           context: ./client
